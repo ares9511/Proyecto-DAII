@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Principal.master.cs" Inherits="Principal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 100%;
+        }
+        .nuevoEstilo1
+        {
+            vertical-align: top;
+            background-color: #C0C0C0;
+            width: 200px;
+            height: 300px;
+        }
+        .nuevoEstilo2
+        {
+            background-color: #999999;
+            height: 45px;
+            border-bottom-style: solid;
+            border-bottom-width: thick;
+            border-bottom-color: #336600;
+        }
+        .auto-style3
+        {
+            width: 160px;
+            height: 160px;
+        }
+        .nuevoEstilo3
+        {
+            text-align: center;
+        }
+        .auto-style4 {
+            height: 96px;
+            font-size: 50pt;
+        }
+        .nuevoEstilo4 {
+            font-family: Kartika;
+            font-weight: bold;
+            text-align: center;
+            background-color: #D70000;
+            font-size: xx-large;
+            color: #3D8A3C;
+            font-style: oblique;
+            text-transform: uppercase;
+        }
+        .nuevoEstilo5 {
+            text-align: justify;
+        }
+        .auto-style5 {
+            text-align: justify;
+            width: 200px;
+        }
+        .nuevoEstilo6 {
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+            font-size: 60px;
+            vertical-align: middle;
+            text-align: center;
+            background-color: #000000;
+        }
+        .auto-style6 {
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+            font-size: 60px;
+            vertical-align: center;
+            text-align: center;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr class="nuevoEstilo4">
+                <td colspan="2" class="auto-style4"><strong>KOLA REAL</strong></td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img alt="" class="auto-style3" src="Images/kr.jpg" /></td>
+                <td class="nuevoEstilo3">
+                    <h2 class="auto-style6">RECURSOS HUMANOS</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="nuevoEstilo1">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+                    </asp:TreeView>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

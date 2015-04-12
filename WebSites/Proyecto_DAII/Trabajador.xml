@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trabajadores>
+  <trabajador DNI="72163405" nombre="Juan Perez" sexo="0" edad="19" telefono="965654789">
+    <fnacimiento dia="12" mes="12" año="1990" />
+    <fingreso dia="02" mes="08" año="2011" />
+  </trabajador>
+  <trabajador DNI="72163407" nombre="Pedro Mamani" sexo="0" edad="18" telefono="965654789">
+    <fnacimiento dia="21" mes="05" año="1995" />
+    <fingreso dia="27" mes="07" año="2010" />
+  </trabajador>
+  <trabajador DNI="72163408" nombre="Carlos Otárola" sexo="0" edad="21" telefono="965654789">
+    <fnacimiento dia="13" mes="02" año="1992" />
+    <fingreso dia="29" mes="04" año="2014" />
+  </trabajador>
+  <trabajador DNI="72163409" nombre="Nicole Flores" sexo="1" edad="22" telefono="965654789">
+    <fnacimiento dia="20" mes="10" año="1996" />
+    <fingreso dia="30" mes="01" año="2013" />
+  </trabajador>
+  <trabajador DNI="72163410" nombre="Diana Pinto" sexo="1" edad="20" telefono="965654789">
+    <fnacimiento dia="30" mes="11" año="1996" />
+    <fingreso dia="20" mes="12" año="2012" />
+  </trabajador>
+  <trabajador DNI="72163411" nombre="Arturo Ramirez" sexo="0" edad="21" telefono="965654789">
+    <fnacimiento dia="02" mes="02" año="1993" />
+    <fingreso dia="10" mes="11" año="2013" />
+  </trabajador>
+  <trabajador DNI="72163406" nombre="Julio Luna" sexo="0" edad="19" telefono="962220970">
+    <fnacimiento dia="08" mes="11" año="1995" />
+    <fingreso dia="15" mes="04" año="2012" />
+  </trabajador>
+  <trabajador DNI="72163412" nombre="Juan Luque" sexo="0" edad="23" telefono="987456321">
+    <fnacimiento dia="22" mes="09" año="1990" />
+    <fingreso dia="17" mes="03" año="2011" />
+  </trabajador>
+  <trabajador DNI="73041887" nombre="Eduardo Sequeiros" sexo="0" edad="20" telefono="952305396">
+    <fnacimiento dia="25" mes="09" año="1994" />
+    <fingreso dia="15" mes="05" año="2012" />
+  </trabajador>
+  <trabajador DNI="72163413" nombre="Carla López" sexo="1" edad="18" telefono="956781256">
+    <fnacimiento dia="26" mes="10" año="1996" />
+    <fingreso dia="10" mes="12" año="2014" />
+  </trabajador>
+</trabajadores>
